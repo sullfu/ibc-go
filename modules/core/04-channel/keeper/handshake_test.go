@@ -810,7 +810,7 @@ func (suite *KeeperTestSuite) TestChanCloseConfirm() {
 
 			err := suite.chainB.App.GetIBCKeeper().ChannelKeeper.ChanCloseConfirm(
 				suite.chainB.GetContext(), path.EndpointB.ChannelConfig.PortID, ibctesting.FirstChannelID, channelCap,
-				proof, malleateHeight(proofHeight, heightDiff),
+				proof, malleateHeight(proofHeight, heightDiff), 0,
 			)
 
 			if tc.expPass {
