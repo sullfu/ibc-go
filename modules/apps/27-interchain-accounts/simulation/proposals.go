@@ -14,8 +14,7 @@ import (
 // Simulation operation weights constants
 const (
 	DefaultWeightMsgUpdateParams int = 100
-
-	OpWeightMsgUpdateParams = "op_weight_msg_update_params" // #nosec
+	OpWeightMsgUpdateParams          = "op_weight_msg_update_params" // #nosec
 )
 
 // ProposalMsgs defines the module weighted proposals' contents
