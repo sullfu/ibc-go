@@ -8,8 +8,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
+	channeltypes "github.com/sullfu/ibc-go/v7/modules/core/04-channel/types"
+	host "github.com/sullfu/ibc-go/v7/modules/core/24-host"
 )
 
 var _ authz.Authorization = &TransferAuthorization{}

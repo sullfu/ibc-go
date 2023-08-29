@@ -8,16 +8,16 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/stretchr/testify/suite"
 
-	ibc "github.com/cosmos/ibc-go/v7/modules/core"
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	connectiontypes "github.com/cosmos/ibc-go/v7/modules/core/03-connection/types"
-	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v7/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
-	"github.com/cosmos/ibc-go/v7/modules/core/types"
-	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
-	"github.com/cosmos/ibc-go/v7/testing/simapp"
+	ibc "github.com/sullfu/ibc-go/v7/modules/core"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	connectiontypes "github.com/sullfu/ibc-go/v7/modules/core/03-connection/types"
+	channeltypes "github.com/sullfu/ibc-go/v7/modules/core/04-channel/types"
+	commitmenttypes "github.com/sullfu/ibc-go/v7/modules/core/23-commitment/types"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
+	"github.com/sullfu/ibc-go/v7/modules/core/types"
+	ibctm "github.com/sullfu/ibc-go/v7/modules/light-clients/07-tendermint"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
+	"github.com/sullfu/ibc-go/v7/testing/simapp"
 )
 
 const (

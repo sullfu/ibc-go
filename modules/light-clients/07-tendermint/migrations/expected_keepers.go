@@ -4,7 +4,7 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
 )
 
 // ClientKeeper expected account IBC client keeper

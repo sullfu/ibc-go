@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"fmt"
 
-	"github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/controller/keeper"
-	icatypes "github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
+	"github.com/sullfu/ibc-go/v7/modules/apps/27-interchain-accounts/controller/keeper"
+	icatypes "github.com/sullfu/ibc-go/v7/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/sullfu/ibc-go/v7/modules/core/04-channel/types"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
 )
 
 func (suite *KeeperTestSuite) TestAssertChannelCapabilityMigrations() {

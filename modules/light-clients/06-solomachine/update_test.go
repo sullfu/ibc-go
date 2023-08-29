@@ -4,12 +4,12 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
-	solomachine "github.com/cosmos/ibc-go/v7/modules/light-clients/06-solomachine"
-	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	host "github.com/sullfu/ibc-go/v7/modules/core/24-host"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
+	solomachine "github.com/sullfu/ibc-go/v7/modules/light-clients/06-solomachine"
+	ibctm "github.com/sullfu/ibc-go/v7/modules/light-clients/07-tendermint"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
 )
 
 func (suite *SoloMachineTestSuite) TestVerifyClientMessageHeader() {

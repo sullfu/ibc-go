@@ -11,9 +11,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	ics23 "github.com/cosmos/ics23/go"
 
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v7/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	commitmenttypes "github.com/sullfu/ibc-go/v7/modules/core/23-commitment/types"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

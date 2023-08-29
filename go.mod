@@ -6,7 +6,7 @@ retract (
 	v7.0.0 // contains huckleberry vulnerability
 )
 
-module github.com/cosmos/ibc-go/v7
+module github.com/sullfu/ibc-go/v7
 
 require (
 	cosmossdk.io/api v0.3.1

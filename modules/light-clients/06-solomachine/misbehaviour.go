@@ -5,8 +5,8 @@ import (
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
 )
 
 var _ exported.ClientMessage = &Misbehaviour{}

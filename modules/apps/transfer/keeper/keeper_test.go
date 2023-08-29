@@ -11,8 +11,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
+	"github.com/sullfu/ibc-go/v7/modules/apps/transfer/types"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
 )
 
 type KeeperTestSuite struct {

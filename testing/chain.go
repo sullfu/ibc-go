@@ -25,14 +25,14 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v7/modules/core/23-commitment/types"
-	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
-	"github.com/cosmos/ibc-go/v7/modules/core/types"
-	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
-	"github.com/cosmos/ibc-go/v7/testing/mock"
-	"github.com/cosmos/ibc-go/v7/testing/simapp"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	commitmenttypes "github.com/sullfu/ibc-go/v7/modules/core/23-commitment/types"
+	host "github.com/sullfu/ibc-go/v7/modules/core/24-host"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
+	"github.com/sullfu/ibc-go/v7/modules/core/types"
+	ibctm "github.com/sullfu/ibc-go/v7/modules/light-clients/07-tendermint"
+	"github.com/sullfu/ibc-go/v7/testing/mock"
+	"github.com/sullfu/ibc-go/v7/testing/simapp"
 )
 
 var MaxAccounts = 10

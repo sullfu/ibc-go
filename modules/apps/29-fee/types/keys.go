@@ -7,7 +7,7 @@ import (
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
+	channeltypes "github.com/sullfu/ibc-go/v7/modules/core/04-channel/types"
 )
 
 const (

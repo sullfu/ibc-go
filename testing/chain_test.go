@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
 )
 
 func TestChangeValSet(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/ibc-go/v7/modules/core/05-port/keeper"
-	"github.com/cosmos/ibc-go/v7/testing/simapp"
+	"github.com/sullfu/ibc-go/v7/modules/core/05-port/keeper"
+	"github.com/sullfu/ibc-go/v7/testing/simapp"
 )
 
 var (

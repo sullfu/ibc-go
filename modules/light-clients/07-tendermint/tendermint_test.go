@@ -11,11 +11,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
-	ibctestingmock "github.com/cosmos/ibc-go/v7/testing/mock"
-	"github.com/cosmos/ibc-go/v7/testing/simapp"
+	clienttypes "github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	ibctm "github.com/sullfu/ibc-go/v7/modules/light-clients/07-tendermint"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
+	ibctestingmock "github.com/sullfu/ibc-go/v7/testing/mock"
+	"github.com/sullfu/ibc-go/v7/testing/simapp"
 )
 
 const (

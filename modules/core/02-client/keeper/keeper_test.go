@@ -15,16 +15,16 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/ibc-go/v7/modules/core/02-client/keeper"
-	"github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
-	commitmenttypes "github.com/cosmos/ibc-go/v7/modules/core/23-commitment/types"
-	"github.com/cosmos/ibc-go/v7/modules/core/exported"
-	solomachine "github.com/cosmos/ibc-go/v7/modules/light-clients/06-solomachine"
-	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
-	localhost "github.com/cosmos/ibc-go/v7/modules/light-clients/09-localhost"
-	ibctesting "github.com/cosmos/ibc-go/v7/testing"
-	ibctestingmock "github.com/cosmos/ibc-go/v7/testing/mock"
-	"github.com/cosmos/ibc-go/v7/testing/simapp"
+	"github.com/sullfu/ibc-go/v7/modules/core/02-client/keeper"
+	"github.com/sullfu/ibc-go/v7/modules/core/02-client/types"
+	commitmenttypes "github.com/sullfu/ibc-go/v7/modules/core/23-commitment/types"
+	"github.com/sullfu/ibc-go/v7/modules/core/exported"
+	solomachine "github.com/sullfu/ibc-go/v7/modules/light-clients/06-solomachine"
+	ibctm "github.com/sullfu/ibc-go/v7/modules/light-clients/07-tendermint"
+	localhost "github.com/sullfu/ibc-go/v7/modules/light-clients/09-localhost"
+	ibctesting "github.com/sullfu/ibc-go/v7/testing"
+	ibctestingmock "github.com/sullfu/ibc-go/v7/testing/mock"
+	"github.com/sullfu/ibc-go/v7/testing/simapp"
 )
 
 const (

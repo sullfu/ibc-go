@@ -4,8 +4,8 @@ import (
 	"github.com/cosmos/gogoproto/grpc"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/ibc-go/v7/modules/core/04-channel/client/cli"
-	"github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
+	"github.com/sullfu/ibc-go/v7/modules/core/04-channel/client/cli"
+	"github.com/sullfu/ibc-go/v7/modules/core/04-channel/types"
 )
 
 // Name returns the IBC channel ICS name.
